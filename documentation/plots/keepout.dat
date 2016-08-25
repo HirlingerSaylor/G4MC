@@ -1,0 +1,23 @@
+PREX II
+Keep out zones. Each set of four points define a box on plane in which our events are confined. 
+Format: X (cm), Y(cm), Z(cm)
+Septum Entrance:
+-16.5 -6.5 33
+-16.5 6.5 33
+-9.5 -6.5 33
+-9.5 6.5 33
+Septum Midpoint:
+-22 -8.5 70
+-22 8.5 70
+-13.5 -8.5 70
+-13.5 8.5 70
+Septum Exit:
+-29.5 -10.5 107
+-29.5 10.5 107
+-19.5 -10.5 107
+-19.5 10.5 107
+Q1 Face:
+-44 -12.5 166.488
+-44 12.5 166.488
+-32 -12.5 169.148
+-32 12.5 169.148

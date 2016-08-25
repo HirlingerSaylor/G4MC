@@ -1,0 +1,22 @@
+\BOOKMARK [1][-]{section.1}{1. Objectives}{}% 1
+\BOOKMARK [1][-]{section.2}{2. Historical Overview}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{2.1. SNAKE}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{2.2. MUDIFI}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{2.3. HAMC}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{2.4. Outlook on SNAKE-MUDIFI-HAMC System}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{3. G4MC - A Modern Simulation for Optics Studies}{}% 7
+\BOOKMARK [1][-]{section.4}{4. Certification of G4MC}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{4.1. Reproduction of SNAKE-MUDIFI-HAMC Results}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{4.2. Reproduction of Data Results}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{5. Application of G4MC}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{5.1. \040Acceptance }{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{5.2. \040Figure of Merit }{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{5.3. \040Resolution }{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.4}{5.4. \040Q1 Collimators }{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.5}{5.5. \040``Keep-out'' Regions }{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.6}{5.6. \040Focal Plane Distributions - CREX}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.7}{5.7. \040CREX Tune }{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.8}{5.8. \040Poletip Scattering}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{6. Outlook and Possible Refinements}{}% 20
+\BOOKMARK [1][-]{section.7}{7. Running the Code}{}% 21
+\BOOKMARK [1][-]{section.8}{8. Output Variables}{}% 22
