@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.1.6)  24 AUG 2016 14:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.1.6)  8 SEP 2016 08:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,273 +435,284 @@ File: plots/acc.png Graphic file (type png)
 Package pdftex.def Info: plots/acc.png used on input line 160.
 (pdftex.def)             Requested size: 341.9989pt x 333.59648pt.
  [12 <./plots/acc.png>]
-<plots/contour_p.png, id=179, 2103.86pt x 1276.77pt>
+<plots/crex_col0.png, id=179, 825.0825pt x 507.39563pt>
+File: plots/crex_col0.png Graphic file (type png)
+
+<use plots/crex_col0.png>
+Package pdftex.def Info: plots/crex_col0.png used on input line 169.
+(pdftex.def)             Requested size: 341.9989pt x 210.3175pt.
+ [13 <./plots/crex_col0.png>]
+<plots/contour_p.png, id=188, 2103.86pt x 1276.77pt>
 File: plots/contour_p.png Graphic file (type png)
  <use plots/contour_p.png>
-Package pdftex.def Info: plots/contour_p.png used on input line 171.
+Package pdftex.def Info: plots/contour_p.png used on input line 180.
 (pdftex.def)             Requested size: 341.9989pt x 207.54085pt.
 
-Underfull \hbox (badness 1629) in paragraph at lines 172--172
-\OT1/cmr/m/sc/10.95 Figure 10.[]\OT1/cmr/m/n/10.95 PREX: Horowitz gen-er-ated c
+Underfull \hbox (badness 1629) in paragraph at lines 181--181
+\OT1/cmr/m/sc/10.95 Figure 11.[]\OT1/cmr/m/n/10.95 PREX: Horowitz gen-er-ated c
 ross sec-tions,
  []
 
-<plots/contour_c.png, id=180, 2103.86pt x 1276.77pt>
+<plots/contour_c.png, id=189, 2103.86pt x 1276.77pt>
 File: plots/contour_c.png Graphic file (type png)
  <use plots/contour_c.png>
-Package pdftex.def Info: plots/contour_c.png used on input line 176.
+Package pdftex.def Info: plots/contour_c.png used on input line 185.
 (pdftex.def)             Requested size: 341.9989pt x 207.54085pt.
 
-Underfull \hbox (badness 1540) in paragraph at lines 177--177
-\OT1/cmr/m/sc/10.95 Figure 11.[]\OT1/cmr/m/n/10.95 CREX: Horowitz gen-er-ated c
+Underfull \hbox (badness 1540) in paragraph at lines 186--186
+\OT1/cmr/m/sc/10.95 Figure 12.[]\OT1/cmr/m/n/10.95 CREX: Horowitz gen-er-ated c
 ross sec-tions,
  []
 
-<plots/fom_p.png, id=181, 2103.86pt x 1076.02pt>
+<plots/fom_p.png, id=190, 2103.86pt x 1076.02pt>
 File: plots/fom_p.png Graphic file (type png)
  <use plots/fom_p.png>
-Package pdftex.def Info: plots/fom_p.png used on input line 181.
+Package pdftex.def Info: plots/fom_p.png used on input line 190.
 (pdftex.def)             Requested size: 341.9989pt x 174.90865pt.
 
-<plots/fom_old.png, id=182, 1566.85374pt x 1141.26375pt>
+<plots/fom_old.png, id=191, 1566.85374pt x 1141.26375pt>
 File: plots/fom_old.png Graphic file (type png)
 
 <use plots/fom_old.png>
-Package pdftex.def Info: plots/fom_old.png used on input line 186.
+Package pdftex.def Info: plots/fom_old.png used on input line 195.
 (pdftex.def)             Requested size: 341.9989pt x 249.09357pt.
- <plots/fom_c.png, id=184, 2103.86pt x 1076.02pt>
-File: plots/fom_c.png Graphic file (type png)
+ [14 <./plots/contour_p.png>] [15 <./plots/contour_c.png> <./plots/fom_p.png>] 
+[16 <./plots/fom_old.png>]
+<plots/4degcrex.png, id=210, 899.36pt x 875.27pt>
+File: plots/4degcrex.png Graphic file (type png)
+ <use plots/4degcrex.png>
+Package pdftex.def Info: plots/4degcrex.png used on input line 210.
+(pdftex.def)             Requested size: 341.9989pt x 332.8331pt.
 
-<use plots/fom_c.png>
-Package pdftex.def Info: plots/fom_c.png used on input line 191.
-(pdftex.def)             Requested size: 341.9989pt x 174.90865pt.
- [13 <./plots/contour_p.png>] [14 <./plots/contour_c.png> <./plots/fom_p.png>] 
-[15 <./plots/fom_old.png> <./plots/fom_c.png>]
-<plots/res.png, id=205, 1100.11pt x 674.52pt>
+<plots/5degcrex.png, id=211, 899.36pt x 875.27pt>
+File: plots/5degcrex.png Graphic file (type png)
+ <use plots/5degcrex.png>
+Package pdftex.def Info: plots/5degcrex.png used on input line 215.
+(pdftex.def)             Requested size: 341.9989pt x 332.8331pt.
+
+[17
+
+ <./plots/4degcrex.png>] <plots/res.png, id=217, 1100.11pt x 674.52pt>
 File: plots/res.png Graphic file (type png)
- <use plots/res.png>
-Package pdftex.def Info: plots/res.png used on input line 203.
-(pdftex.def)             Requested size: 341.9989pt x 209.6857pt.
- [16
 
- <./plots/res.png>] <plots/newcol.png, id=211, 2003.485pt x 975.645pt>
+<use plots/res.png>
+Package pdftex.def Info: plots/res.png used on input line 227.
+(pdftex.def)             Requested size: 341.9989pt x 209.6857pt.
+ [18 <./plots/5degcrex.png>]
+<plots/newcol.png, id=223, 2003.485pt x 975.645pt>
 File: plots/newcol.png Graphic file (type png)
-
-<use plots/newcol.png>
-Package pdftex.def Info: plots/newcol.png used on input line 213.
+ <use plots/newcol.png>
+Package pdftex.def Info: plots/newcol.png used on input line 237.
 (pdftex.def)             Requested size: 341.9989pt x 166.54227pt.
- <plots/keepout.png, id=212, 1100.11pt x 674.52pt>
-File: plots/keepout.png Graphic file (type png)
 
-<use plots/keepout.png>
-Package pdftex.def Info: plots/keepout.png used on input line 225.
+[19 <./plots/res.png> <./plots/newcol.png>]
+<plots/keepout.png, id=230, 1100.11pt x 674.52pt>
+File: plots/keepout.png Graphic file (type png)
+ <use plots/keepout.png>
+Package pdftex.def Info: plots/keepout.png used on input line 249.
 (pdftex.def)             Requested size: 341.9989pt x 209.6857pt.
 
-<plots/PREXvsPREXII.JPG, id=213, 1147.28625pt x 238.64156pt>
+<plots/PREXvsPREXII.JPG, id=231, 1147.28625pt x 238.64156pt>
 File: plots/PREXvsPREXII.JPG Graphic file (type jpg)
 
 <use plots/PREXvsPREXII.JPG>
-Package pdftex.def Info: plots/PREXvsPREXII.JPG used on input line 230.
+Package pdftex.def Info: plots/PREXvsPREXII.JPG used on input line 254.
 (pdftex.def)             Requested size: 341.9989pt x 71.1342pt.
- [17 <./plots/newcol.png>]
-<plots/transportcartoon.png, id=218, 1100.11pt x 1076.02pt>
+ [20 <./plots/keepout.png> <./plots/PREXvsPREXII.JPG>] <plots/transportcartoon.
+png, id=238, 1100.11pt x 1076.02pt>
 File: plots/transportcartoon.png Graphic file (type png)
 
 <use plots/transportcartoon.png>
-Package pdftex.def Info: plots/transportcartoon.png used on input line 242.
+Package pdftex.def Info: plots/transportcartoon.png used on input line 266.
 (pdftex.def)             Requested size: 341.9989pt x 334.49863pt.
 
-<plots/crex_footprint.png, id=219, 1501.61pt x 875.27pt>
+<plots/crex_footprint.png, id=239, 1501.61pt x 875.27pt>
 File: plots/crex_footprint.png Graphic file (type png)
 
 <use plots/crex_footprint.png>
-Package pdftex.def Info: plots/crex_footprint.png used on input line 247.
+Package pdftex.def Info: plots/crex_footprint.png used on input line 271.
 (pdftex.def)             Requested size: 341.9989pt x 199.3446pt.
- [18 <./plots/keepout.png> <./plots/PREXvsPREXII.JPG>] [19 <./plots/transportca
-rtoon.png>] [20 <./plots/crex_footprint.png>]
-[21
-
-]
-Overfull \hbox (101.43327pt too wide) in paragraph at lines 303--370
+ [21 <./plots/transportcartoon.png>] [22 <./plots/crex_footprint.png>]
+Overfull \hbox (101.43327pt too wide) in paragraph at lines 327--394
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--370
+Underfull \hbox (badness 10000) in paragraph at lines 327--394
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--397
+Underfull \hbox (badness 10000) in paragraph at lines 405--421
 
  []
 
 
-Overfull \hbox (91.24129pt too wide) in alignment at lines 397--439
+Overfull \hbox (91.24129pt too wide) in alignment at lines 421--463
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 439
+Underfull \vbox (badness 10000) detected at line 463
  []
 
 
-Overfull \hbox (91.24129pt too wide) in alignment at lines 439--481
- [] [] [] 
- []
-
-[24]
-Overfull \hbox (91.24129pt too wide) in alignment at lines 481--523
- [] [] [] 
- []
-
-
-Overfull \hbox (91.24129pt too wide) in alignment at lines 523--565
+Overfull \hbox (91.24129pt too wide) in alignment at lines 463--505
  [] [] [] 
  []
 
 [25]
-Overfull \hbox (91.24129pt too wide) in alignment at lines 565--606
+Overfull \hbox (91.24129pt too wide) in alignment at lines 505--547
  [] [] [] 
  []
 
 
-Overfull \hbox (91.24129pt too wide) in alignment at lines 606--648
+Overfull \hbox (91.24129pt too wide) in alignment at lines 547--589
  [] [] [] 
  []
 
 [26]
-Overfull \hbox (91.24129pt too wide) in alignment at lines 648--690
+Overfull \hbox (91.24129pt too wide) in alignment at lines 589--630
  [] [] [] 
  []
 
 
-Overfull \hbox (91.24129pt too wide) in alignment at lines 690--732
+Overfull \hbox (91.24129pt too wide) in alignment at lines 630--672
  [] [] [] 
  []
 
 [27]
-Overfull \hbox (91.24129pt too wide) in alignment at lines 732--774
+Overfull \hbox (91.24129pt too wide) in alignment at lines 672--714
  [] [] [] 
  []
 
 
-Overfull \hbox (91.24129pt too wide) in alignment at lines 774--792
+Overfull \hbox (91.24129pt too wide) in alignment at lines 714--756
  [] [] [] 
  []
 
 [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 794.
- [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 794.
+Overfull \hbox (91.24129pt too wide) in alignment at lines 756--798
+ [] [] [] 
+ []
+
+
+Overfull \hbox (91.24129pt too wide) in alignment at lines 798--816
+ [] [] [] 
+ []
+
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 818.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 818.
  (./G4MC.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 794.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 818.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 818.
 Package rerunfilecheck Info: File `G4MC.out' has not changed.
 (rerunfilecheck)             Checksum: 9CFF04D46F56F765FFAC033C7903235D;1536.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 794.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 818.
  ) 
 Here is how much of TeX's memory you used:
- 6484 strings out of 495063
- 92293 string characters out of 3182202
+ 6497 strings out of 495063
+ 92544 string characters out of 3182202
  201457 words of memory out of 3000000
- 9342 multiletter control sequences out of 15000+200000
+ 9350 multiletter control sequences out of 15000+200000
  11556 words of font info for 45 fonts, out of 3000000 for 9000
  175 hyphenation exceptions out of 8191
  34i,7n,31p,815b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -715,10 +726,10 @@ type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb>
-Output written on G4MC.pdf (29 pages, 1405065 bytes).
+Output written on G4MC.pdf (30 pages, 1424977 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 86 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

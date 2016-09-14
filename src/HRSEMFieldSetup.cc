@@ -106,7 +106,7 @@ HRSEMFieldSetup::HRSEMFieldSetup()
   G4double KAPPA2 =  0.;
   G4double KAPPA3 =  0.;
   G4int sos = 1;
-  if( mSnakeModel > 52 ){
+  if( mSnakeModel >= 52 ){
     sos = 1;
   }
 
@@ -151,7 +151,7 @@ HRSEMFieldSetup::HRSEMFieldSetup()
 	( mSnakeModel != 53 && mSnakeModel   != 54 && mSnakeModel   != 55 ) ){//prex, 5 degrees
       G4cout << "IN 5 DEGREE MODE!" << G4endl;
       G4cout << mSnakeModel << " " << mLSeptumAngle << " " << mRSeptumAngle << G4endl;
-      KAPPA1 = sos ? 0.260387 * tesla : -0.8476  * tesla / snakemagnumber; //test3
+      KAPPA1 = sos ? 0.260387 * tesla / 1.063 * mLHRSMomentum: -0.8476  * tesla / snakemagnumber; //test3
       //KAPPA1 = -0.8476  * tesla / snakemagnumber;
       //G4cout << "Ratio " << mRHRSMomentum << " " << 0.83756 << G4endl;
       //KAPPA1 *= 1.1;
@@ -198,7 +198,12 @@ HRSEMFieldSetup::HRSEMFieldSetup()
       KAPPA3 =-1.73056 * tesla * pQ3Radius / 1000. / 2.2 * mLHRSMomentum;;
       G4cout << pQ1Radius << " " << pQ2Radius << " " << pQ3Radius << " " << tesla << G4endl;
       G4cout << KAPPA1 << " " << KAPPA2 << " " << KAPPA3 << G4endl;
+
+
     }
+
+
+
     //this is just for a test. You better comment this line out.
     //KAPPA3 *= 1.1;
 
@@ -220,6 +225,9 @@ HRSEMFieldSetup::HRSEMFieldSetup()
     //dipoleField *= 2.2 / 1.063;
     dipoleField *= mLHRSMomentum / 1.063;
   }
+
+  G4cout << "Magnets: " << KAPPA1 << " " << KAPPA2 << " " << dipoleField << " " << KAPPA3 << G4endl;
+
   G4RotationMatrix* LROTATED = new G4RotationMatrix;
   G4RotationMatrix* RROTATED = new G4RotationMatrix;
   LROTATED->rotateY( mLHRSAngle );

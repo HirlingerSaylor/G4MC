@@ -374,7 +374,6 @@ void HRSPrimaryGeneratorAction::GetPosition()
 		{//use random z position
 			//tmpzz = G4UniformRand()*(gunZHigh-gunZLow)+gunZLow;
 			tmpzz = mRand.fRand(gunZLow,gunZHigh);
-			//cout << "DOOOOOOOOP: " << tmpzz << " " << gunZLow << " " << gunZHigh << endl;
 		}
 		tmpxx = gunX;
 		tmpyy = gunY;
@@ -383,8 +382,6 @@ void HRSPrimaryGeneratorAction::GetPosition()
 		tmpyy+=kTargetYOffset;
 
 		//tmpzz = mRand.fRand(gunZLow,gunZHigh);
-		//cout << "DOOOOOOOOP: " << tmpzz << " " << gunZLow << " " << gunZHigh << endl;
-		//cout << "DOOOOOOOOP: " << tmpxx << " " << tmpyy << " " << tmpzz << endl;
 		
 	}
 	position3V.set(tmpxx,tmpyy,tmpzz);

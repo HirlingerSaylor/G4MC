@@ -136,7 +136,7 @@ void BField_Dipole_Fringe::GetFieldValue( const G4double y[7],
     //G4cout << tesla << " " << fact << G4endl;
     float snake_x = - r_local.y() - r_0;
     //float snake_y = - r_local.z() + sqrt( 3. ) / r_local.x();
-    float snake_y = - r_local.z() - ( r_local.y() + r_0 ) * tan( pi / 6 );
+    float snake_y = - r_local.z() + ( r_local.y() + r_0 ) * tan( pi / 6 );
     float snake_z =   r_local.x();
     
     dfringe_( &snake_x               , &snake_y                , &snake_z,
@@ -147,7 +147,7 @@ void BField_Dipole_Fringe::GetFieldValue( const G4double y[7],
     float tilt    = pi / 4.;
     float snake_x =   r_local.z() * sin( tilt ) - r_local.y() * cos( tilt ) - r_0;                     //-y
     //float snake_y = - r_local.z() + sqrt( 3. ) / r_local.x();
-    float snake_y =   r_local.z() * cos( tilt ) + r_local.y() * sin( tilt ) + snake_x * tan( pi / 6 ); //+z
+    float snake_y =   r_local.z() * cos( tilt ) + r_local.y() * sin( tilt ) - snake_x * tan( pi / 6 ); //+z
     float snake_z = - r_local.x();                                                                     //-x
 
     //G4cout << "Snake: " << snake_x << " " << snake_y << " " << snake_z << G4endl;
